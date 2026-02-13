@@ -72,7 +72,7 @@ export default function Home() {
         {/* Header */}
         <header className="border-b border-border bg-background/80 backdrop-blur-sm sticky top-0 z-30">
           <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between lg:hidden">
-            <h2 className="text-xl font-bold text-accent">ALEX</h2>
+            <h2 className="text-xl font-bold text-accent">CHAN</h2>
             <Mail className="w-5 h-5 text-foreground" />
           </div>
         </header>
@@ -94,7 +94,7 @@ export default function Home() {
         I build intelligent systems, design clean digital experiences, and create visual content for publications. Passionate about technology, storytelling, and solving real-world problems.
       </p>
 
-      <div className="flex gap-3 pt-2">
+      {/* <div className="flex gap-3 pt-2">
         <button className="px-5 py-2 bg-accent text-accent-foreground rounded-lg hover:opacity-90 transition-opacity font-medium text-sm flex items-center gap-2">
           Get in Touch <ArrowRight className="w-4 h-4" />
         </button>
@@ -102,7 +102,7 @@ export default function Home() {
         <button className="px-5 py-2 border border-border rounded-lg hover:bg-secondary transition-colors font-medium text-sm">
           View Work
         </button>
-      </div>
+      </div> */}
     </div>
 
     <AboutSection />
