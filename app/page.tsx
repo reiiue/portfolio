@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Twitter, ArrowRight, Code2, Briefcase, Sparkles } from "lucide-react"
+import { Github, Linkedin, Mail, Twitter, ArrowRight, Code2, Briefcase, Sparkles, Facebook } from "lucide-react"
 import HeroSection from "@/components/hero-section"
 import AboutSection from "@/components/about-section"
 import ExperienceSection from "@/components/experience-section"
@@ -62,7 +62,7 @@ export default function Home() {
             <Linkedin className="w-5 h-5 text-foreground" />
           </a>
           <a href="#" className="p-2 hover:bg-secondary rounded-lg transition-colors" title="Twitter">
-            <Twitter className="w-5 h-5 text-foreground" />
+            <Facebook className="w-5 h-5 text-foreground" />
           </a>
         </div>
       </nav>
